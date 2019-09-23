@@ -57,22 +57,6 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="row-item">
-            {!! Form::label('account_number', trans('register.account_number')) !!}
-            {!! Form::text('account_number', '', ['class' => $errors->has('account_number') ? 'has-error' : '', 'maxlength' => 255]) !!}
-        </div>
-        <div class="row-item">
-            {!! Form::label('vat_number', trans('register.vat_number')) !!}
-            {!! Form::text('vat_number', '', ['class' => $errors->has('vat_number') ? 'has-error' : '', 'maxlength' => 255]) !!}
-        </div>
-    </div>
-    <div class="row">
-        <div class="row-item full">
-            {!! Form::label('alt_payment', trans('register.alt_payment')) !!}
-            {!! Form::text('alt_payment', '', ['class' => $errors->has('alt_payment') ? 'has-error' : '', 'maxlength' => 255]) !!}
-        </div>
-    </div>
     @include('partials.agree_tac')
     <div class="row">
         <div class="row-item">

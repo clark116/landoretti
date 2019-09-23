@@ -12,7 +12,6 @@
 */
 
 Route::get('home', 'EtcController@redirectHome');
-Route::get('login', 'EtcController@redirectHome');
 
 Route::get('setlocale/{locale}', 'EtcController@setLocale')->name('setLocale');
 Route::get('/', 'EtcController@home')->name('home');
@@ -34,6 +33,7 @@ Route::middleware(['auth'])->group(function() {
 });
 
 // Auth routes
+Route::get('login', 'Auth\LoginController@showLoginForm')->name('loginPage');
 Route::post('login', 'Auth\LoginController@login')->name('login');
 Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 Route::post('register', 'Auth\RegisterController@register');

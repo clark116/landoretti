@@ -22,7 +22,7 @@ return [
         'fr' => 'FR',
         'en' => 'EN',
     ],
-    'logo_alt' => 'Landoretti logo',
-    'description' => 'Landoretti Art is an art auction site aimed on providing an amazing user experience for both buyers and sellers alike.',
+    'logo_alt' => 'Logo',
+    'description' => 'This is an art auction site aimed on providing an amazing user experience for both buyers and sellers alike.',
 
 ];

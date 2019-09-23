@@ -34,6 +34,10 @@ Breadcrumbs::register('register', function ($breadcrumbs) {
     $breadcrumbs->parent('home');
     $breadcrumbs->push(trans('register.register'), route('register'));
 });
+Breadcrumbs::register('loginPage', function ($breadcrumbs) {
+    $breadcrumbs->parent('home');
+    $breadcrumbs->push('Log In', route('loginPage'));
+});
 
 Breadcrumbs::register('password.request', function ($breadcrumbs) {
     $breadcrumbs->parent('home');

@@ -59,9 +59,6 @@ class RegisterController extends Controller
             'address' => 'required|string|max:255',
             'calling_code' => ['required', Rule::in(array_keys(trans('register.calling_codes')))],
             'phone_number' => 'required|string|max:255',
-            'account_number' => 'required|string|max:255',
-            'vat_number' => 'required|string|max:255',
-            'alt_payment' => 'required|string|max:255',
             'agree_tac' => 'accepted',
         ]);
     }
@@ -83,9 +80,6 @@ class RegisterController extends Controller
             'city' => $data['city'],
             'address' => $data['address'],
             'phone_number' => '+' . $data['calling_code'] . $data['phone_number'],
-            'account_number' => $data['account_number'],
-            'vat_number' => $data['vat_number'],
-            'alt_payment' => $data['alt_payment'],
         ]);
     }
 }

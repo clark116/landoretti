@@ -22,16 +22,15 @@
                 <p>{{ $user->zip }}, {{ $user->city }}</p>
             </div>
         </div>
-        <div class="profile-info-col">
-            <div class="item">
-                <p class="sub-title">@lang('register.vat_number')</p>
-                <p>{{ $user->vat_number }}</p>
-            </div>
-            <div class="item">
-                <p class="sub-title">@lang('register.account_number')</p>
-                <p>{{ $user->account_number }}</p>
-            </div>
+
+<!-- 
+    <div class="profile-info-col">
+        <div class="item">
+            <p class="sub-title">Title</p>
+            <p>Lorem Ipusm</p>
         </div>
+    </div>
+ -->
     </div>
     <div class="active-auctions">
         <h2>@lang('profile.active_auctions')</h2>

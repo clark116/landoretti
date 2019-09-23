@@ -19,20 +19,10 @@ return [
     'tac' => 'The Terms & Conditions',
     'register_submit' => 'REGISTER',
     'countries' => [
-        'be' => 'Belgium',
-        'nl' => 'The Netherlands',
-        'gb' => 'Great Britain',
-        'ie' => 'Ireland',
-        'fr' => 'France',
-        'lu' => 'Luxembourg',
+        'us' => 'USA',
     ],
     'calling_codes' => [
-        '32' => '+32',
-        '31' => '+31',
-        '44' => '+44',
-        '353' => '+353',
-        '33' => '+33',
-        '352' => '+352',
+        '1' => '+1',
     ],
 
 ];

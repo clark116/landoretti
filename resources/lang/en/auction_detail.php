@@ -18,6 +18,6 @@ return [
     'no_bids' => 'There are no bids for this auction yet',
     'sold' => 'Sold',
     'expired' => 'Expired',
-    'no_auth' => 'Please log in or make an account to bid'
+    'no_auth' => 'Please <a href="'.route('login').'">log in</a> to bid'
 
 ];
